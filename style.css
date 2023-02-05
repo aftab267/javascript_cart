@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.container{
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    margin-right: 20px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 4px 5px 15px black;
+}
+.fixed{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 4px 5px 15px black;
+}
+.h1{
+    text-align: center;
+    color: grey;
+    padding: 10px;
+}
+.img {
+	width: 200px;
+	height: 174px;
+	border-radius: 50%;
+	box-shadow: 4px 3px 15px black;
+}
+.card-img{
+    width: 40%;
+    text-align: center;
+    box-shadow: 4px 3px 15px black;
+    padding: 20px;
+    float: left;
+}
+.card-title{
+    float: left;
+    margin-left: 100px;
+    padding: 28px;
+
+}
+h3{
+    color: teal;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+.price{
+    color: red;
+}
+.icon{
+    color: black;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background 0.5s ;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 20px;
+}
+.icon:hover{
+    background-color: teal;
+    color: white;
+    border-radius: 50%;
+}
+.input{
+    width: 80px;
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.Item{
+    font-size: 1.5rem;
+}
+.clear{
+    clear: both;
+}
+.hr-style{
+    border: 4px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.card-2{
+    margin-top: 25px;
+}
+.total{
+    text-align: center;
+    color: teal;
+}
+h2{
+    padding: 20px;
+}
+.Coupon{
+    color: teal;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.code{
+    color: rgb(143, 12, 143);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.coupon_input{
+    width: 40%;
+    padding: 8px;
+    margin-left: 20px;
+}
+.apply{
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
